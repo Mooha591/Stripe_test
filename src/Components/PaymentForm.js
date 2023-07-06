@@ -8,9 +8,7 @@ import {
 } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 
-const stripePromise = loadStripe(
-  "pk_test_51NNboOIynajAYZaRpaNCOnMqd03SF4plqYZuynSlemnuhTqOF0XIl9kvYi2r6DgCFa5REOmqkGThImENkmfbzhtd00aN0MPWo7"
-);
+const stripePromise = loadStripe("met-ta-clé-publique-stripe");
 
 const PaymentForm = () => {
   const stripe = useStripe();

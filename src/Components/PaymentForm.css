@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.PaymentForm {
+    /* ... autres styles ... */
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .PaymentForm .StripeElement {
+    /* styles pour le conteneur de CardElement */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .PaymentForm .StripeElement .__PrivateStripeElement {
+    /* styles pour le composant de CardElement */
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    color: #555;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
